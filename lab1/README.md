@@ -1,20 +1,20 @@
 # parals
 cmake
-    float
-        mkdir build && cd build
-        cmake ..
+float
+    mkdir build && cd build
+    cmake ..
     make
-        ./task1_sin
+    ./task1
 
-    double
-        mkdir build && cd build
-        cmake -DUSE_DOUBLE=ON ..
+double
+    mkdir build && cd build
+    cmake -DUSE_DOUBLE=ON ..
     make
-        ./task1_sin
+    ./task1
 
 make
-    float
-        make
+float
+    make
 
-    double
-        make USE_DOUBLE=1
+double
+    make USE_DOUBLE=1
