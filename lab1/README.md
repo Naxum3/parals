@@ -1,4 +1,4 @@
-# parals
+# first task
 cmake
 float
     mkdir build && cd build
