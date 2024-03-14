@@ -5,7 +5,7 @@ float
     cmake ..  
     cd ../  
     cmake --buid build  
-    cd ./build/debug  
+    cd ./build  
     task1.exe  
   
 double  
@@ -13,7 +13,7 @@ double
     cmake -DUSE_DOUBLE=ON ..  
     cd ../  
     cmake --build build  
-    cd ./build/debug  
+    cd ./build 
     task1.exe  
   
 make  
