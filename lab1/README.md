@@ -3,14 +3,16 @@ cmake
 float  
     mkdir build && cd build  
     cmake ..  
-    make  
-    ./task1  
+    cd ../  
+    cmake --buid build  
+    build/debug/task1.exe  
   
 double  
     mkdir build && cd build  
     cmake -DUSE_DOUBLE=ON ..  
-    make  
-    ./task1  
+    cd ../  
+    cmake --buid build  
+     build/debug/task1.exe  
   
 make  
 float  
