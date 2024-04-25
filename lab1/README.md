@@ -1,20 +1,24 @@
-# first task
-cmake
-float
-    mkdir build && cd build
-    cmake ..
-    make
-    ./task1
-
-double
-    mkdir build && cd build
-    cmake -DUSE_DOUBLE=ON ..
-    make
-    ./task1
-
-make
-float
-    make
-
-double
-    make USE_DOUBLE=1
+# first task  
+cmake  
+float  
+    mkdir build && cd build  
+    cmake ..  
+    cd ../  
+    cmake --buid build  
+    cd ./build  
+    task1.exe  
+  
+double  
+    mkdir build && cd build  
+    cmake -DUSE_DOUBLE=ON ..  
+    cd ../  
+    cmake --build build  
+    cd ./build 
+    task1.exe  
+  
+make  
+float  
+    make  
+  
+double  
+    make USE_DOUBLE=1  
